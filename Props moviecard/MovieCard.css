@@ -1,0 +1,41 @@
+/* MovieCard.css */
+.movie-card {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .movie-details {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .release-year {
+    font-weight: bold;
+    color: #007bff; /* Blue color for year */
+    margin-right: 10px;
+  }
+  
+  .genre {
+    font-style: italic;
+    color: #28a745; /* Green color for genre */
+  }
+  
